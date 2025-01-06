@@ -4,6 +4,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:redacted/redacted.dart';
 import 'package:wischool/presentation/carouselSlider.dart';
 
+import 'Animated/LottieAnimation/lottie_animation.dart';
+import 'Animated/withController(ExplicitAnimation)/AnimatedBuilder/animated_builder.dart';
+import 'Animated/withoutController(ImplicitAnimation)/AnimatedFoo/animated_foo.dart';
+import 'Animated/withoutController(ImplicitAnimation)/TweenAnimation/home.dart';
+import 'Animated/withoutController(ImplicitAnimation)/TweenAnimation/tween_animation_example2.dart';
 import 'Lifecycle of a Stateful Widget/example1/example1.dart';
 import 'Lifecycle of a Stateful Widget/home.dart';
 import 'api/api_test.dart';
@@ -56,18 +61,23 @@ class WiSchool extends StatelessWidget {
         // initialRoute: AppRoutes.home,
         // // routes: AppRoutes.routes,
         // onGenerateRoute: AppRoutes.generateRoute,
-        home:
-            //  const SideMenuWidget(title: 'easy_sidemenu Demo'),
-            //const ScreenUtilWidget(),
-            // const Tables2(),
-            //TapToExpandWidget(),
-            //SpeedDialDemo(),
-            //SliderWidget(),
-            //RadioButtonPage(),
-            // TooltipWidget(),
-            //ApiTest(),
-            // CarouselSliderWidget(),
-            const SlidableWidget(),
+        home: const LottieAnimationWidget(),
+        // const AnimatedBuilderWidget(),
+        //const FooTransition(),
+        //const TweenAnimationExample2(),
+        //const TweenHome(),
+        // const AnimatedFoo(),
+        //  const SideMenuWidget(title: 'easy_sidemenu Demo'),
+        //const ScreenUtilWidget(),
+        // const Tables2(),
+        //TapToExpandWidget(),
+        //SpeedDialDemo(),
+        //SliderWidget(),
+        //RadioButtonPage(),
+        // TooltipWidget(),
+        //ApiTest(),
+        // CarouselSliderWidget(),
+        // const SlidableWidget(),
         //ContainerClip(),
         //HomeScreen(),
         // Reorderable(),

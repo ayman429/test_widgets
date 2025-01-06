@@ -1,0 +1,10 @@
+
+Flutter Animation Course
+
+https://www.youtube.com/playlist?list=PL9b6wgodx-C2_nzF7GF7vnJZvjOkPgu_X
+
+
+Lottie animation
+https://youtube.com/watch?v=DfesVaNpLaE
+https://lottiefiles.com/free-animations/free-download
+https://pub.dev/packages/lottie
