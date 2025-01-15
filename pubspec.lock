@@ -198,6 +198,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.19"
+  flutter_randomcolor:
+    dependency: "direct main"
+    description:
+      name: flutter_randomcolor
+      sha256: c41c1371c038861a83158d0859faa8a4d32585bb7dc234bce76cc6175dac9aca
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.16"
   flutter_screenutil:
     dependency: "direct main"
     description:
@@ -552,6 +560,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.12"
+  rich_typewriter:
+    dependency: "direct main"
+    description:
+      name: rich_typewriter
+      sha256: "6d05f889e11d1ffa42268b713f01f7a47a654f142f46d3f09949934bbf6be5ba"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   share_plus:
     dependency: "direct main"
     description:
