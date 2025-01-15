@@ -55,6 +55,8 @@ dependencies:
   flutter_screenutil:
   easy_sidemenu:
   lottie:
+  flutter_randomcolor:
+  rich_typewriter:
 
 dev_dependencies:
   flutter_test:
