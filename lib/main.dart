@@ -12,6 +12,7 @@ import 'Animated/withoutController(ImplicitAnimation)/TweenAnimation/tween_anima
 import 'Lifecycle of a Stateful Widget/example1/example1.dart';
 import 'Lifecycle of a Stateful Widget/home.dart';
 import 'api/api_test.dart';
+import 'keys/key_example1.dart';
 import 'presentation/Hover.dart';
 import 'presentation/VelocityX.dart';
 import 'presentation/add_icon.dart';
@@ -30,8 +31,10 @@ import 'presentation/radio_button.dart';
 import 'presentation/redact_widget.dart';
 import 'presentation/reorderable.dart';
 import 'presentation/responsive_hight.dart';
+import 'presentation/rich_typewriter.dart';
 import 'presentation/screen_util.dart';
 import 'presentation/scrolling.dart';
+import 'presentation/selectable_text.dart';
 import 'presentation/side_menu.dart';
 import 'presentation/slidable.dart';
 import 'presentation/slider.dart';
@@ -61,7 +64,10 @@ class WiSchool extends StatelessWidget {
         // initialRoute: AppRoutes.home,
         // // routes: AppRoutes.routes,
         // onGenerateRoute: AppRoutes.generateRoute,
-        home: const LottieAnimationWidget(),
+        home: const RichTypewriterWidget(),
+        //const PositionedTiles(),
+        //const SelectableTextWidget(),
+        //const LottieAnimationWidget(),
         // const AnimatedBuilderWidget(),
         //const FooTransition(),
         //const TweenAnimationExample2(),
